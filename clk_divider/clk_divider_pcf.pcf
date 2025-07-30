@@ -1,0 +1,10 @@
+# Upduino 3.0 PCF file for clk_divider module
+
+# Clock input (typically connected to the 12 MHz onboard crystal)
+set_io clk 37    # Pin 37 → Clock input
+
+# Reset input (use a button or external signal)
+set_io rst 35    # Pin 35 → Reset input
+
+# Output clock (divided clock output)
+set_io clk_out 28  # Pin 28 → Divided clock output
